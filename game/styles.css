@@ -1,0 +1,19 @@
+/* styles.css — page chrome around the Midnight Vault canvas. */
+html, body { margin: 0; padding: 0; background: #0a0a12; }
+body {
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #cfd2e0;
+}
+#wrap { text-align: center; }
+canvas {
+  display: block;
+  width: min(96vw, 1152px);
+  height: auto;
+  border: 2px solid #2c2f45;
+  border-radius: 10px;
+  background: #10101c;
+  box-shadow: 0 0 60px rgba(80, 90, 200, 0.25);
+}
+#hint { margin-top: 10px; font-size: 13px; letter-spacing: 0.04em; color: #8b8fa8; }
